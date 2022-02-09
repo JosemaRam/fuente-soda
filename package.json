@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "name": "fuente-soda",
+  "description": "Proyecto para la realización de una página para una fuente de soda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test devfrontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosemaRam/fuente-soda.git"
+  },
+  "keywords": [
+    "test",
+    "devfrontend"
+  ],
+  "author": "Jose Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosemaRam/fuente-soda/issues"
+  },
+  "homepage": "https://github.com/JosemaRam/fuente-soda#readme"
+}

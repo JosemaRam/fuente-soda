@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Banana Beach - Fuente de Soda</title>
+        <link rel=stylesheet href="style.css">
+        <link rel="stylesheet"  href="node_modules/bootstrap/dist/css/bootstrap.bundle.min.css">       
+    </head>
+    <body>
+        <h1>Banana Beach</h1>
+        <h2>¡Si quieres contactarnos o hacer una consulta, rellena el formulario!</h2>        
+        <div class="formulario">
+          <h3>Datos de Contacto</h3>
+          <form action="/action_page.php" method="get">
+            <div class="form-line">
+                 <label for="nombre">Nombre</label>
+                 <input name="nombre" id="nombre" placeholder="Nombre">
+                 <label for="apellido">Apellido</label>
+                 <input name="apellido" id="apellido" placeholder="Apellido">
+            </div>
+        
+            <br>
+            <div class="form-line">
+                <label for="email">Email</label>
+                <input name="email" id="email" placeholder="Email">
+           </div>
+            
+           <p>Tipo de contacto:</p>
+            <div class="form-line">
+                <input type="checkbox" id="consulta" name="consulta" value="consulta">
+                <label for="consulta">Consulta</label><br>
+                <input type="checkbox" id="queja" name="queja" value="queja">
+                <label for="queja">Queja</label><br>
+            </div>
+            <br>
+            <div class="form-line">
+                <label for="texto">Mensaje:</label>
+                <br>
+                <textarea name="texto" id="texto" cols="50" rows="15"></textarea>
+            </div>        
+            <br>
+            <div class="botones"> 
+              <button  type="submit" value="enviar">Enviar</button>
+            </div>
+            </form>
+          </div>         
+    </body>
