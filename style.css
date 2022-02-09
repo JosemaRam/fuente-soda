@@ -1,5 +1,44 @@
 body {
-background: rgb(23,244,190);
-background: linear-gradient(0deg, rgba(23,244,190,1) 20%, rgba(198,254,49,1) 30%, rgba(255,235,98,1) 40%, rgba(243,244,182,1) 50%, rgba(250,249,226,1) 60%, rgba(247,247,240,1) 70%);
+    background: rgb(23,244,190);
+    background: linear-gradient(0deg, rgba(23,244,190,1) 20%, rgba(198,254,49,1) 30%, rgba(255,235,98,1) 40%, rgba(243,244,182,1) 45%, rgba(255,255,255,1) 54%, rgba(255,255,255,1) 100%);
+    }
+
+img#bananalogo {
+    padding-left: 35%;
 }
 
+h1 {
+    padding-left: 5%;
+}
+
+h3 { 
+    text-align: center;
+    font-size: 20px;
+}
+
+div.form-line {
+    font-weight: bolder;
+    padding-left: 5px;
+}
+
+p {
+    font-weight: bolder;
+    padding-left: 5px;
+}
+
+div.formulario {
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    font-weight: 400;  
+    border-style: solid;
+    border-color: coral;
+    text-align: left;
+    }
+
+div.boton {
+    padding-left: 45%;
+    align-content: center;
+}
